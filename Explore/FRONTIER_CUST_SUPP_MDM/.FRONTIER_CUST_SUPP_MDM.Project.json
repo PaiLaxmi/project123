@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6CjUZoj0R1Bgqv0WSNdkyN",
+    "name" : "FRONTIER_CUST_SUPP_MDM",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This is to keep all the assets for Customer and Supplier MDM Implementation. ",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-01-12T12:50:23.498Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
