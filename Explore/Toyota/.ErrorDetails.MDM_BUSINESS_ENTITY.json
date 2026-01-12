@@ -1,0 +1,497 @@
+{
+  "objectInfo" : {
+    "id" : "9iCDdfdIus2jAZroJvaPUI",
+    "name" : "ErrorDetails",
+    "type" : "MDM_BUSINESS_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "errordetails_1767696140488"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2026-01-12T12:54:47.904Z",
+  "objectRefs" : [ {
+    "id" : "08EEQmSlhFalKO0FZRjQsp",
+    "name" : "ElectronicAddressUsageType",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be._ent_electronicaddressusagetype"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Reference360"
+  }, {
+    "id" : "61lPDr2aqgOczysVwK1kEW",
+    "name" : "PhoneStatus",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be._ent_phonestatus"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Reference360"
+  }, {
+    "id" : "gnjar4Vvomkh92xayCZ0sl",
+    "name" : "ER_AssignedTo_Cleanse",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gnjar4Vvomkh92xayCZ0sl"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Guest MDM 2.0/DQ Rules"
+  }, {
+    "id" : "5tBUipgMBiXkfln52EgoMO",
+    "name" : "ER Category",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be.695beb2ef04fee3b5cc07fa2"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "id" : "hX1yZjRRo66cJ19dYhXIe5",
+    "name" : "PhoneType",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be._ent_phonetype"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "PhoneType.",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Reference360"
+  }, {
+    "id" : "kohs8pnvAsgdxEnBxBlkEW",
+    "name" : "ER Assigned To ",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be.695beb2ef04fee3b5cc07f93"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "id" : "lr2annQYRCmjPiESkohOOs",
+    "name" : "PhoneUsageType",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be._ent_phoneusagetype"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Reference360"
+  }, {
+    "id" : "fVGjbQKmnWjbbGzUeTT5M1",
+    "name" : "ElectronicAddressStatus",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be._ent_electronicaddressstatus"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Reference360"
+  }, {
+    "id" : "hidDcnhT3y6lv7leomm2wO",
+    "name" : "entityName",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be.695bebbbf04fee3b5cc08dbe"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Guest MDM 2.0/Reference Data Set"
+  }, {
+    "id" : "83Nu0MLhZ8oevEqs5RqcMm",
+    "name" : "ER_Status_Cleanse",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "83Nu0MLhZ8oevEqs5RqcMm"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Guest MDM 2.0/DQ Rules"
+  }, {
+    "id" : "eQdauWkv4kulSOJhoIJzkS",
+    "name" : "ER Status",
+    "type" : "MDM_REFERENCE_ENTITY",
+    "providerName" : "MDM",
+    "providerLevelValidator" : {
+      "solutionsToValidate" : {
+        "r360" : {
+          "version" : "default"
+        }
+      },
+      "additionalSolutionsInSource" : {
+        "b360" : {
+          "version" : "202604.01"
+        },
+        "c360" : {
+          "version" : "202604.01"
+        },
+        "p360" : {
+          "version" : "202604.01"
+        },
+        "s360" : {
+          "version" : "202604.01"
+        }
+      },
+      "vaderMigrationStatus" : "STARTED"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "rdm.value.be.695beb5df04fee3b5cc0830f"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "id" : "bQwyWrkaJSLldPpcHADxKG",
+    "name" : "ER_Category_Cleanse",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bQwyWrkaJSLldPpcHADxKG"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Guest MDM 2.0/DQ Rules"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
